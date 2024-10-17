@@ -57,12 +57,16 @@ MONGODB_URI=<Your MongoDB connection URI>
 ## API Endpoints
 - `POST /api/v1/comicBook` - Add a new comic book
 <img src="src\Images\create.png" alt="" height="300" />
+
 - `GET /api/v1/comicBook` - Get all comic books with filters and sorting
 <img src="src\Images\findMany.png" alt="" height="300" />
+
 - `PUT /api/v1/comicBook/:id` - Update a comic book by ID
 <img src="src\Images\update.png" alt="" height="300" />
+
 - `DELETE /api/v1/comicBook/:id` - Delete a comic book by ID
 <img src="src\Images\delete.png" alt="" height="300" />
+
 - `GET /api/v1/comicBook/:id` - Fetch details of single comic by its ID
 <img src="src\Images\findOne.png" alt="" height="300" />
 
