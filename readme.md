@@ -33,7 +33,7 @@ The Comic Book Store Backend is a RESTful API built using Node.js, Express.js, a
    git clone git@github.com:NS32-oss/ComicBook.git
 2. Navigate to the project directory:
     ```bash
-    cd Comic_Book_Store_Backend
+    cd ComicBook
 3. Install dependencies:
     ```bash
     npm install
