@@ -50,7 +50,7 @@ MONGODB_URI=<Your MongoDB connection URI>
 ## Usage
 1. Start the development server:
     ```bash
-    npm run 
+    npm start 
     ```
 2. Use Postman or any other API testing tool to interact with the API endpoints.
 
