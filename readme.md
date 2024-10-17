@@ -46,7 +46,18 @@ Create a `.env` file in the root directory of the project and configure the foll
 
 ```bash
 PORT=5000
-MONGODB_URI=<Your MongoDB connection URI>
+MONGODB_URI=<Your MongoDB connection URI>\
+```
+
+## API Endpoints
+- `POST /api/v1/comicBook` - Add a new comic book
+- `GET /api/v1/comicBook` - Get all comic books with filters and sorting
+- `PUT /api/v1/comicBook/:id` - Update a comic book by ID
+- `DELETE /api/v1/comicBook/:id` - Delete a comic book by ID
+- `GET /api/v1/comicBook/:id` - Fetch details of single comic by its ID
+
+
+
 
 
 
