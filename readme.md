@@ -42,11 +42,13 @@ The Comic Book Store Backend is a RESTful API built using Node.js, Express.js, a
 
 ## Environment Variables
 
-Create a .env file in the root directory of the project and configure the following environment variables:
-```bash
-PORT=5000
-MONGODB_URI=<Your MongoDB connection URI>       
-
+1. Create a `.env` file in the root directory of the project and configure the following environment variables:
+    ```
+    PORT=5000
+    MONGODB_URI=<Your MongoDB connection URI>       
+    ```
 Ensure these variables are correctly set up before running the application.
+PORT=5000
+MONGODB_URI=<Your MongoDB connection URI>
 
 
