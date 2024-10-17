@@ -55,7 +55,6 @@ MONGODB_URI=<Your MongoDB connection URI>
     ```
 2. Use Postman or any other API testing tool to interact with the API endpoints.
 
-
 ## API Endpoints
 - `POST /api/v1/comicBook` - Add a new comic book
 - `GET /api/v1/comicBook` - Get all comic books with filters and sorting
