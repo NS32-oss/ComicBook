@@ -10,7 +10,6 @@ The Comic Book Store Backend is a RESTful API built using Node.js, Express.js, a
 - [Environment Variables](#environment-variables)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
-- [License](#license)
 
 ## Features
 
@@ -51,7 +50,7 @@ MONGODB_URI=<Your MongoDB connection URI>
 ## Usage
 1. Start the development server:
     ```bash
-    npm run dev
+    npm run 
     ```
 2. Use Postman or any other API testing tool to interact with the API endpoints.
 
@@ -62,8 +61,6 @@ MONGODB_URI=<Your MongoDB connection URI>
 - `DELETE /api/v1/comicBook/:id` - Delete a comic book by ID
 - `GET /api/v1/comicBook/:id` - Fetch details of single comic by its ID
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 
 
