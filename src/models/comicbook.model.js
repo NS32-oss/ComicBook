@@ -40,6 +40,7 @@ const comicBookSchema = new mongoose.Schema(
 
     condition: {
       type: String,
+      lowercase: true,
       enum: ["new", "used"],
       default: "new",
       text: true,
